@@ -1,0 +1,22 @@
+<assembly>
+    <id>src</id>
+
+    <formats>
+        <format>zip</format>
+    </formats>
+
+    <fileSets>
+        <fileSet>
+            <includes>
+                <include>README*</include>
+                <include>pom.xml</include>
+                <!--<include>build.xml</include>-->
+                <!--<include>functional-test.properties</include>-->
+            </includes>
+        </fileSet>
+
+        <fileSet>
+            <directory>src</directory>
+        </fileSet>
+    </fileSets>
+</assembly>
