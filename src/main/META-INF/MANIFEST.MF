@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Can-Redefine-Classes: false
+Premain-Class: com.ribomation.jmxagent.JMXStartupStub
+Created-By: Jens Riboe, Ribomation, Sweden
+Boot-Class-Path: JMXAgent.jar WebAppSupport.jar

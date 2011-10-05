@@ -1,0 +1,18 @@
+This is a small bit of code that will start Introscope monitoring of JMX metrics for any app running in a 1.5 JVM.
+
+Requirements:
+- JVM 1.5
+- Introscope Agent installed in application
+- Application has an existing JMX Agent (MBean Server)
+
+Installation:
+- Drop this JAR file into the same directory as the Introscope Agent's WebAppSupport.jar
+
+Configuration:
+- Add this line to the application's startup configuration command line
+    -javaagent:/path/to/JMXAgent.jar
+
+If the Introscope Agent is started using -javaagent then make sure that it is before the -javaagent that starts the JMXAgent.
+For example:
+    java -javaagent:Agent.jar -javaagent:JMXAgent.jar -jar MyApplication.jar
+
