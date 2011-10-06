@@ -10,8 +10,6 @@
             <includes>
                 <include>README*</include>
                 <include>pom.xml</include>
-                <!--<include>build.xml</include>-->
-                <!--<include>functional-test.properties</include>-->
             </includes>
         </fileSet>
 
